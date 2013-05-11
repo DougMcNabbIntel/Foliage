@@ -1,0 +1,11 @@
+ReceiveShadows      = true
+
+VertexShaderFile    = LightMap.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = LightMap.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+
+RenderStateFile     = LightMap.rs

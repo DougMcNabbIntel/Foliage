@@ -1,0 +1,17 @@
+ReceiveShadows      = false
+texture_DM          = PRP_TreeLeaves_A.dds
+texture_SM          = PRP_TreeLeaves_A_SM.dds
+texture_NM          = PRP_TreeLeaves_A_NM.dds
+texture_NMsRGB      = false
+TerrainLightMap     = $TerrainLightMap
+
+VertexShaderFile    = TreeDNM.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = TreeDNM.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+
+RenderStateFile     = Tree.rs
+

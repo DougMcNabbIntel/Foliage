@@ -1,0 +1,22 @@
+
+BillboardTexture        = $FoliageBillboardColor
+NormalTexture           = $FoliageBillboardNormal
+NormalTextureSrgb       = false
+ProbabilityTexture      = $FoliageBillboardProbability
+ProbabilityTextureSrgb  = false
+BillboardBuffer         = @VertexBuffer
+TerrainLightMap         = $TerrainLightMap
+
+GeometryShaderFile      = foliage.fx
+GeometryShaderMain      = GSMain
+GeometryShaderProfile   = gs_4_0
+
+VertexShaderFile        = foliage.fx
+VertexShaderMain        = VSMain
+VertexShaderProfile     = vs_4_0
+
+PixelShaderFile         = foliage.fx
+PixelShaderMain         = PSMain
+PixelShaderProfile      = ps_4_0
+
+RenderStateFile         = foliage.rs

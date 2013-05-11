@@ -1,0 +1,11 @@
+ReceiveShadows      = false
+
+VertexShaderFile    = ambientShadowCast.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile    = ambientShadowCast.fx
+PixelShaderMain    = PSMain
+PixelShaderProfile = ps_4_0
+
+RenderStateFile     = ambientShadowCast.rs

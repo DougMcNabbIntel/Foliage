@@ -1,0 +1,13 @@
+// Created with FBXConvert.exe (Oct  5 2012 06:49:44)
+[node 0]
+type = model
+name = Plane001
+parent = -1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 2.83277e-016 1 0
+matrixRow2 = -0 -1 2.83277e-016 0
+matrixRow3 = 0 0 2.1288e-005 1
+BoundingBoxCenter = 0 0 -276.668 
+BoundingBoxHalf = 2640 2640 209.465 
+meshcount = 1
+material0 = Terrain_layerTexturePath

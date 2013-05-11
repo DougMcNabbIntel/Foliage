@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{3eb25951-0f7f-4d1a-abc3-b1b8abbfa219}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPUT\CPUT_DX11.cpp" />
+    <ClCompile Include="CPUT\CPUTControl.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTGuiControllerDX11.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTButton.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTCheckbox.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTDropdown.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTGuiController.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTFont.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTFontDX11.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTSlider.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTText.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTRenderStateBlock.cpp" />
+    <ClCompile Include="CPUT\CPUTRenderStateBlockDX11.cpp" />
+    <ClCompile Include="CPUT\CPUTMaterial.cpp" />
+    <ClCompile Include="CPUT\CPUTMaterialDX11.cpp" />
+    <ClCompile Include="CPUT\CPUTInputLayoutCacheDX11.cpp" />
+    <ClCompile Include="CPUT\CPUTMesh.cpp" />
+    <ClCompile Include="CPUT\CPUTMeshDX11.cpp" />
+    <ClCompile Include="CPUT\CPUTModel.cpp" />
+    <ClCompile Include="CPUT\CPUTModelDX11.cpp" />
+    <ClCompile Include="CPUT\CPUTAssetLibrary.cpp" />
+    <ClCompile Include="CPUT\CPUTAssetLibraryDX11.cpp" />
+    <ClCompile Include="CPUT\CPUTAssetSet.cpp" />
+    <ClCompile Include="CPUT\CPUTAssetSetDX11.cpp" />
+    <ClCompile Include="CPUT\CPUTBufferDX11.cpp" />
+    <ClCompile Include="CPUT\CPUTCamera.cpp" />
+    <ClCompile Include="CPUT\CPUTComputeShaderDX11.cpp" />
+    <ClCompile Include="CPUT\CPUTDomainShaderDX11.cpp" />
+    <ClCompile Include="CPUT\CPUTFrustum.cpp" />
+    <ClCompile Include="CPUT\CPUTGeometryShaderDX11.cpp" />
+    <ClCompile Include="CPUT\CPUTHullShaderDX11.cpp" />
+    <ClCompile Include="CPUT\CPUTLight.cpp" />
+    <ClCompile Include="CPUT\CPUTNullNode.cpp" />
+    <ClCompile Include="CPUT\CPUTPixelShaderDX11.cpp" />
+    <ClCompile Include="CPUT\CPUTRenderNode.cpp" />
+    <ClCompile Include="CPUT\CPUTShaderDX11.cpp" />
+    <ClCompile Include="CPUT\CPUTTexture.cpp" />
+    <ClCompile Include="CPUT\CPUTTextureDX11.cpp" />
+    <ClCompile Include="CPUT\CPUTVertexShaderDX11.cpp" />
+    <ClCompile Include="CPUT\CPUTPostProcess.cpp" />
+    <ClCompile Include="CPUT\CPUTRenderTarget.cpp" />
+    <ClCompile Include="CPUT\CPUTSprite.cpp" />
+    <ClCompile Include="CPUT\CPUTConfigBlock.cpp" />
+    <ClCompile Include="CPUT\CPUTITTTaskMarker.cpp" />
+    <ClCompile Include="CPUT\CPUTOSServicesWin.cpp" />
+    <ClCompile Include="CPUT\CPUTPerfTaskMarker.cpp" />
+    <ClCompile Include="CPUT\CPUTTimerWin.cpp" />
+    <ClCompile Include="CPUT\CPUTWindowWin.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPUT\CPUT_DX11.h" />
+    <ClInclude Include="CPUT\CPUTCallbackHandler.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTControl.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTEventHandler.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTGuiControllerDX11.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTMath.h" />
+    <ClInclude Include="CPUT\CPUTButton.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTCheckbox.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTDropdown.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTGuiController.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUT.h" />
+    <ClInclude Include="CPUT\CPUTFont.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTFontDX11.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTSlider.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTText.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRenderStateMapsDX11.h" />
+    <ClInclude Include="CPUT\CPUTRenderStateBlock.h" />
+    <ClInclude Include="CPUT\CPUTRenderStateBlockDX11.h" />
+    <ClInclude Include="CPUT\CPUTMaterialDX11.h" />
+    <ClInclude Include="CPUT\CPUTMaterial.h" />
+    <ClInclude Include="CPUT\CPUTInputLayoutCache.h" />
+    <ClInclude Include="CPUT\CPUTModelDX11.h" />
+    <ClInclude Include="CPUT\CPUTInputLayoutCacheDX11.h" />
+    <ClInclude Include="CPUT\CPUTMesh.h" />
+    <ClInclude Include="CPUT\CPUTMeshDX11.h" />
+    <ClInclude Include="CPUT\CPUTModel.h" />
+    <ClInclude Include="CPUT\CPUTVertexShaderDX11.h" />
+    <ClInclude Include="CPUT\CPUTAssetLibrary.h" />
+    <ClInclude Include="CPUT\CPUTAssetLibraryDX11.h" />
+    <ClInclude Include="CPUT\CPUTAssetSet.h" />
+    <ClInclude Include="CPUT\CPUTAssetSetDX11.h" />
+    <ClInclude Include="CPUT\CPUTBuffer.h" />
+    <ClInclude Include="CPUT\CPUTBufferDX11.h" />
+    <ClInclude Include="CPUT\CPUTCamera.h" />
+    <ClInclude Include="CPUT\CPUTComputeShaderDX11.h" />
+    <ClInclude Include="CPUT\CPUTDomainShaderDX11.h" />
+    <ClInclude Include="CPUT\CPUTFrustum.h" />
+    <ClInclude Include="CPUT\CPUTGeometryShaderDX11.h" />
+    <ClInclude Include="CPUT\CPUTHullShaderDX11.h" />
+    <ClInclude Include="CPUT\CPUTLight.h" />
+    <ClInclude Include="CPUT\CPUTNullNode.h" />
+    <ClInclude Include="CPUT\CPUTPixelShaderDX11.h" />
+    <ClInclude Include="CPUT\CPUTRenderNode.h" />
+    <ClInclude Include="CPUT\CPUTRenderParams.h" />
+    <ClInclude Include="CPUT\CPUTRenderParamsDX.h" />
+    <ClInclude Include="CPUT\CPUTShaderDX11.h" />
+    <ClInclude Include="CPUT\CPUTTexture.h" />
+    <ClInclude Include="CPUT\CPUTTextureDX11.h" />
+    <ClInclude Include="CPUT\CPUTSprite.h" />
+    <ClInclude Include="CPUT\CPUTPostProcess.h" />
+    <ClInclude Include="CPUT\CPUTRenderTarget.h" />
+    <ClInclude Include="CPUT\CPUTWindowWin.h" />
+    <ClInclude Include="CPUT\CPUTConfigBlock.h" />
+    <ClInclude Include="CPUT\CPUTITTTaskMarker.h" />
+    <ClInclude Include="CPUT\CPUTOSServicesWin.h" />
+    <ClInclude Include="CPUT\CPUTPerfTaskMarker.h" />
+    <ClInclude Include="CPUT\CPUTRefCount.h" />
+    <ClInclude Include="CPUT\CPUTTimer.h" />
+    <ClInclude Include="CPUT\CPUTTimerWin.h" />
+    <ClInclude Include="CPUT\CPUTResource.h" />
+  </ItemGroup>
+</Project>

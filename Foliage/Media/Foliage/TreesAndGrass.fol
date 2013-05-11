@@ -1,0 +1,127 @@
+
+[Foliage_DX11]
+material                 = TreesAndGrass
+HeightTexture            = $HeightField
+widthInPlants            =   128
+heightInPlants           =   128
+widthInPatches           =     8
+heightInPatches          =     8
+heightScale              =   600.0
+heightOffset             =     0.0
+heightTextureWorldWidth  =  5285.28
+heightTextureWorldHeight =  5285.28
+worldWidth               =  5273.76
+worldHeight              =  5273.76
+
+[plant 1]
+;assetSet                    = grassA.set
+billboardColorTexture       = grassA_BB_Color.dds
+billboardNormalTexture      = grassA_BB_Normal.dds
+billboardProbabilityTexture = grass_PM.dds
+3DFarClipDistance           =  100.0
+nearFadeStart               =    0.0
+nearFadeEnd                 =   -1.0
+farFadeStart                =  500.0
+farFadeEnd                  =  800.0
+sizeMin                     =    2.0 
+sizeMax                     =    3.0
+widthRatioMin               =    1.0
+widthRatioMax               =    2.5
+plantSpacingWidth           =    3.0
+plantSpacingHeight          =    3.0
+positionRandomScale         =    0.5
+uLeft                       =    1.0
+uRight                      =    0.0
+vTop                        =    1.0
+vBottom                     =    0.0
+
+[plant 2]
+;assetSet                    = grassB.set
+billboardColorTexture       = grassB_BB_Color.dds
+billboardNormalTexture      = grassB_BB_Normal.dds
+billboardProbabilityTexture = grass_PM.dds
+3DFarClipDistance           =  600.0
+nearFadeStart               =    0.0
+nearFadeEnd                 =   -1.0
+farFadeStart                = 1000.0
+farFadeEnd                  = 4000.0
+sizeMin                     =    3.0
+sizeMax                     =    5.0
+widthRatioMin               =    0.75
+widthRatioMax               =    1.0
+plantSpacingWidth           =   27.0
+plantSpacingHeight          =   27.0
+positionRandomScale         =    0.5
+uLeft                       =    1.0
+uRight                      =    0.0
+vTop                        =    1.0
+vBottom                     =    0.0
+
+[plant 3]
+;assetSet                    = grassB.set
+billboardColorTexture       = grassA_BB_Color.dds
+billboardNormalTexture      = grassA_BB_Normal.dds
+billboardProbabilityTexture = grass_PM.dds
+3DFarClipDistance           =  300.0
+nearFadeStart               =    0.0
+nearFadeEnd                 =   -1.0
+farFadeStart                = 1000.0
+farFadeEnd                  = 4000.0
+sizeMin                     =    5.0
+sizeMax                     =    7.0
+widthRatioMin               =    0.5
+widthRatioMax               =    1.0
+plantSpacingWidth           =   33.3
+plantSpacingHeight          =   33.3
+positionRandomScale         =    0.5
+uLeft                       =    1.0
+uRight                      =    0.0
+vTop                        =    1.0
+vBottom                     =    0.0
+
+[plant 4]            
+assetSet                    = treeF_L00.set
+billboardColorTexture       = treeF_L00_BB_Color.dds
+billboardNormalTexture      = treeF_L00_BB_Normal.dds
+billboardProbabilityTexture = tree_PM.dds
+3DFarClipDistance           =  400.0
+nearFadeStart               =  200.0
+nearFadeEnd                 =  100.0
+farFadeStart                = 2000.0
+farFadeEnd                  = 8000.0
+sizeMin                     =   27.0
+sizeMax                     =   27.0
+widthRatioMin               =    1.0
+widthRatioMax               =    1.0
+plantSpacingWidth           =   37.0
+plantSpacingHeight          =   37.0
+positionRandomScale         =    0.5
+offsetX                     =   -1.0
+offsetY                     =    0.0
+uLeft                       =    1.0
+uRight                      =    0.0
+vTop                        =    1.0
+vBottom                     =    0.0
+
+[plant 5]            
+assetSet                    = treeA_L00.set
+billboardColorTexture       = treeA_L00_BB_Color.dds
+billboardNormalTexture      = treeA_L00_BB_Normal.dds
+billboardProbabilityTexture = tree_PM.dds
+3DFarClipDistance           =  500.0
+nearFadeStart               =  400.0
+nearFadeEnd                 =  200.0
+farFadeStart                = 2000.0
+farFadeEnd                  = 8000.0
+sizeMin                     =   29.5
+sizeMax                     =   29.5
+widthRatioMin               =    1.0
+widthRatioMax               =    1.0
+plantSpacingWidth           =   43.0
+plantSpacingHeight          =   43.0
+positionRandomScale         =    0.5
+uLeft                       =    1.0
+uRight                      =    0.0
+vTop                        =    1.0
+vBottom                     =    0.0
+

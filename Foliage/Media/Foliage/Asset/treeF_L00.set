@@ -1,0 +1,14 @@
+// Created with FBXConvert.exe (Oct  5 2012 06:49:44)
+[node 0]
+type = model
+name = treeF_L00
+parent = -1
+matrixRow0 = 1.9685 0 -0 0
+matrixRow1 = 0 1.9685 -0 0
+matrixRow2 = -0 -0 1.9685 0
+matrixRow3 = 0 0 -0 1
+BoundingBoxCenter = -0.528786 6.74731 0.565133 
+BoundingBoxHalf = 5.19143 6.74732 5.25181 
+meshcount = 2
+material0 = treeF_trunk
+material1 = treeF_leaves

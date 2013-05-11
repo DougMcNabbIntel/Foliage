@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Media">
+      <UniqueIdentifier>{4c8b232d-33dc-4de5-b462-653bc520a8f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Foliage">
+      <UniqueIdentifier>{dd56c85b-8cd9-414c-b53e-9ebb3b0f31b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{6ee751c1-fefa-4b4d-bf74-224ba94899e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Terrain">
+      <UniqueIdentifier>{8cd0c8a2-8b5f-4ef0-aa4d-2c8c7b4fe0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Foliage\Asset">
+      <UniqueIdentifier>{027d75b4-6946-4947-ab09-8bfbbe71bd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Foliage\Material">
+      <UniqueIdentifier>{61979d94-2721-4f55-8830-1b03d556cbb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Foliage\Shader">
+      <UniqueIdentifier>{09ef697d-7fa1-42cc-a555-b55af8c06af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Media\PostProcess">
+      <UniqueIdentifier>{f93614d4-f2c4-4d8b-befa-9568875bf0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Sky">
+      <UniqueIdentifier>{02e5a2d4-c186-4630-bcf4-f4886487fc0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Misc">
+      <UniqueIdentifier>{cf2b355f-4381-4f34-809c-469cecdfd329}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Foliage.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Media\Terrain\Asset\RollingHills.set">
+      <Filter>Media\Terrain</Filter>
+    </None>
+    <None Include="Media\Foliage\Shader\Tree.rs">
+      <Filter>Media\Foliage\Shader</Filter>
+    </None>
+    <None Include="Media\Foliage\Shader\foliage.fx">
+      <Filter>Media\Foliage\Shader</Filter>
+    </None>
+    <None Include="Media\Foliage\Shader\foliage.rs">
+      <Filter>Media\Foliage\Shader</Filter>
+    </None>
+    <None Include="Media\Foliage\Shader\Grass.fx">
+      <Filter>Media\Foliage\Shader</Filter>
+    </None>
+    <None Include="Media\Foliage\Shader\Grass.rs">
+      <Filter>Media\Foliage\Shader</Filter>
+    </None>
+    <None Include="Media\Foliage\TreesAndGrass.fol">
+      <Filter>Media\Foliage</Filter>
+    </None>
+    <None Include="Media\Foliage\Shader\RenderColorToBillboard.fx">
+      <Filter>Media\Foliage\Shader</Filter>
+    </None>
+    <None Include="Media\Foliage\Shader\Normal.fx">
+      <Filter>Media\Foliage\Shader</Filter>
+    </None>
+    <None Include="Media\Foliage\Shader\RenderToBillboard.rs">
+      <Filter>Media\Foliage\Shader</Filter>
+    </None>
+    <None Include="Media\Foliage\Asset\treeF_L00.set">
+      <Filter>Media\Foliage\Asset</Filter>
+    </None>
+    <None Include="Media\Terrain\Shader\TerrainLayers.fx">
+      <Filter>Media\Terrain</Filter>
+    </None>
+    <None Include="Media\Foliage\Shader\TreeDNM.fx">
+      <Filter>Media\Foliage\Shader</Filter>
+    </None>
+    <None Include="Media\Foliage\Shader\TreeDNM.shd">
+      <Filter>Media\Foliage\Shader</Filter>
+    </None>
+    <None Include="Media\Terrain\Material\Terrain_layerTexturePath.mtl">
+      <Filter>Media\Terrain</Filter>
+    </None>
+    <None Include="Media\Foliage\Asset\treeA_L00.set">
+      <Filter>Media\Foliage\Asset</Filter>
+    </None>
+    <None Include="Media\Foliage\Material\TreesAndGrass.mtl">
+      <Filter>Media\Foliage\Material</Filter>
+    </None>
+    <None Include="Media\Foliage\Material\lambert3.mtl">
+      <Filter>Media\Foliage\Material</Filter>
+    </None>
+    <None Include="Media\Foliage\Material\plantTreeWood.mtl">
+      <Filter>Media\Foliage\Material</Filter>
+    </None>
+    <None Include="Media\Foliage\Material\treeF_leaves.mtl">
+      <Filter>Media\Foliage\Material</Filter>
+    </None>
+    <None Include="Media\Foliage\Material\treeF_trunk.mtl">
+      <Filter>Media\Foliage\Material</Filter>
+    </None>
+    <None Include="Media\Foliage\Material\plantTreeWoodColor.mtl">
+      <Filter>Media\Foliage\Material</Filter>
+    </None>
+    <None Include="Media\Foliage\Material\plantTreeWoodColorNormal.mtl">
+      <Filter>Media\Foliage\Material</Filter>
+    </None>
+    <None Include="Media\Foliage\Material\treeF_trunkColorNormal.mtl">
+      <Filter>Media\Foliage\Material</Filter>
+    </None>
+    <None Include="Media\Foliage\Material\lambert3ColorNormal.mtl">
+      <Filter>Media\Foliage\Material</Filter>
+    </None>
+    <None Include="Media\Foliage\Material\treeF_leavesColorNormal.mtl">
+      <Filter>Media\Foliage\Material</Filter>
+    </None>
+    <None Include="Media\Foliage\Material\treeF_trunkColor.mtl">
+      <Filter>Media\Foliage\Material</Filter>
+    </None>
+    <None Include="Media\Foliage\Material\treeF_leavesColor.mtl">
+      <Filter>Media\Foliage\Material</Filter>
+    </None>
+    <None Include="Media\Foliage\Material\lambert3Color.mtl">
+      <Filter>Media\Foliage\Material</Filter>
+    </None>
+    <None Include="Media\Terrain\Shader\Terrain_layerTexturePath.fx">
+      <Filter>Media\Terrain</Filter>
+    </None>
+    <None Include="Media\Terrain\Shader\Terrain_layerTexturePath.shd">
+      <Filter>Media\Terrain</Filter>
+    </None>
+    <None Include="Media\Foliage\Shader\TreeTrunkDNM.fx">
+      <Filter>Media\Foliage\Shader</Filter>
+    </None>
+    <None Include="Media\Material\PostProcess\BlurHorizontal.mtl">
+      <Filter>Media\PostProcess</Filter>
+    </None>
+    <None Include="Media\Material\PostProcess\BlurVertical.mtl">
+      <Filter>Media\PostProcess</Filter>
+    </None>
+    <None Include="Media\Material\PostProcess\Composite.mtl">
+      <Filter>Media\PostProcess</Filter>
+    </None>
+    <None Include="Media\Material\PostProcess\DownSample4x4.mtl">
+      <Filter>Media\PostProcess</Filter>
+    </None>
+    <None Include="Media\Material\PostProcess\DownSample4x4Alpha.mtl">
+      <Filter>Media\PostProcess</Filter>
+    </None>
+    <None Include="Media\Material\PostProcess\DownSampleBackBuffer4x4.mtl">
+      <Filter>Media\PostProcess</Filter>
+    </None>
+    <None Include="Media\Material\PostProcess\DownSampleLogLum.mtl">
+      <Filter>Media\PostProcess</Filter>
+    </None>
+    <None Include="Media\Material\PostProcess\sprite.mtl">
+      <Filter>Media\PostProcess</Filter>
+    </None>
+    <None Include="Media\Shader\PostProcess\AlphaEnabled.rs">
+      <Filter>Media\PostProcess</Filter>
+    </None>
+    <None Include="Media\Shader\PostProcess\Default.rs">
+      <Filter>Media\PostProcess</Filter>
+    </None>
+    <None Include="Media\Shader\PostProcess\PostProcess.hlsl">
+      <Filter>Media\PostProcess</Filter>
+    </None>
+    <None Include="Media\Shader\PostProcess\Sprite.fx">
+      <Filter>Media\PostProcess</Filter>
+    </None>
+    <None Include="Media\Shader\PostProcess\sprite.rs">
+      <Filter>Media\PostProcess</Filter>
+    </None>
+    <None Include="Media\sky\Material\sky.mtl">
+      <Filter>Media\Sky</Filter>
+    </None>
+    <None Include="Media\sky\Shader\sky.fx">
+      <Filter>Media\Sky</Filter>
+    </None>
+    <None Include="Media\Material\TerrainAndTreesLightMap.mtl">
+      <Filter>Media\Terrain</Filter>
+    </None>
+    <None Include="Media\Shader\TerrainAndTreesLightMap.rs">
+      <Filter>Media\Terrain</Filter>
+    </None>
+    <None Include="Media\Material\TerrainLightMap.mtl">
+      <Filter>Media\Terrain</Filter>
+    </None>
+    <None Include="Media\Shader\RenderHeight.fx">
+      <Filter>Media\Terrain</Filter>
+    </None>
+    <None Include="Media\Material\HeightField.mtl">
+      <Filter>Media\Terrain</Filter>
+    </None>
+    <None Include="Media\Shader\AmbientShadowCast.fx">
+      <Filter>Media\Misc</Filter>
+    </None>
+    <None Include="Media\Shader\sprite.rs">
+      <Filter>Media\Misc</Filter>
+    </None>
+    <None Include="Media\Material\AmbientShadowCast.mtl">
+      <Filter>Media\Misc</Filter>
+    </None>
+    <None Include="Media\Shader\AmbientShadowCast.rs">
+      <Filter>Media\Misc</Filter>
+    </None>
+    <None Include="Media\Shader\LightMap.fx">
+      <Filter>Media\Misc</Filter>
+    </None>
+    <None Include="Media\Shader\LightMap.rs">
+      <Filter>Media\Misc</Filter>
+    </None>
+    <None Include="Media\Shader\shadowCast.fx">
+      <Filter>Media\Misc</Filter>
+    </None>
+    <None Include="Media\Material\shadowCast.mtl">
+      <Filter>Media\Misc</Filter>
+    </None>
+    <None Include="Media\Shader\shadowCast.rs">
+      <Filter>Media\Misc</Filter>
+    </None>
+    <None Include="Media\Shader\Sprite.fx">
+      <Filter>Media\Misc</Filter>
+    </None>
+    <None Include="Media\Material\sprite.mtl">
+      <Filter>Media\Misc</Filter>
+    </None>
+    <None Include="Media\Terrain\Shader\Terrain.rs">
+      <Filter>Media\Terrain</Filter>
+    </None>
+    <None Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPUTFoliagePatch.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Foliage.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultShader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUTFoliagePatch.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Foliage.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Foliage.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

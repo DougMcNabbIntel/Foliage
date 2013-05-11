@@ -1,0 +1,13 @@
+ReceiveShadows      = false
+texture0            = PRP_Log_Amod_DM.dds
+
+VertexShaderFile    = Normal.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = Normal.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+
+RenderStateFile     = RenderToBillboard.rs
+

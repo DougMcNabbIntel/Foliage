@@ -1,0 +1,21 @@
+ReceiveShadows = false
+
+diffuseLayer1       = rockmoss_DM.dds
+diffuseLayer2       = grass_DM.dds
+diffuseLayer3       = cliff_DM.dds
+diffuseLayer4       = grassdirt_DM.dds
+diffuseLayer5       = path_DM.dds
+maskTexture1        = height1_deposit.dds
+maskTexture2        = height1_depositLow.dds
+maskTexture3        = path_Mask.dds
+TerrainLightMap     = $TerrainLightMap
+
+VertexShaderFile    = Terrain_layerTexturePath.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = Terrain_layerTexturePath.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+
+RenderStateFile     = Terrain.rs

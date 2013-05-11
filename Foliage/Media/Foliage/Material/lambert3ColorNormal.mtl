@@ -1,0 +1,12 @@
+ReceiveShadows      = false
+texture0            = PRP_TreeLeaves_A.dds
+
+VertexShaderFile    = Normal.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = Normal.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+
+RenderStateFile     = RenderToBillboard.rs

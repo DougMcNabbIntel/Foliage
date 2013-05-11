@@ -1,0 +1,13 @@
+ReceiveShadows      = false
+texture0            = GreenLeaves_D.dds
+
+VertexShaderFile    = RenderColorToBillboard.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = RenderColorToBillboard.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+
+RenderStateFile     = RenderToBillboard.rs
+

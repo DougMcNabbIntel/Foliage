@@ -1,0 +1,16 @@
+ReceiveShadows      = false
+texture_DM          = TER_Rock_A_DM.dds
+texture_SM          = TER_Rock_A_DM.dds
+texture_NM          = TER_Rock_A_NM.dds
+texture_NMsRGB      = false
+TerrainLightMap     = $TerrainLightMap
+
+VertexShaderFile    = TreeTrunkDNM.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = TreeTrunkDNM.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+
+RenderStateFile     = Tree.rs

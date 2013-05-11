@@ -1,0 +1,10 @@
+texture_EM          = Sky.dds
+texture_EMsRGB      = false
+
+VertexShaderFile    = sky.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = sky.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = $DefaultRenderStates

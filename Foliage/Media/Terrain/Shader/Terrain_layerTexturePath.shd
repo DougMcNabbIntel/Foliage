@@ -1,0 +1,14 @@
+layer1= texture( name="diffuseLayer1", uv=uv0 * 20)
+layer2= texture( name="diffuseLayer2", uv=uv0 * 100)
+layer3= texture( name="diffuseLayer3", uv=uv0 * 10 )
+layer4= texture( name="diffuseLayer4", uv=uv0 * 50)
+layer5= texture( name="diffuseLayer5", uv=uv0 * 200)
+mask1 = texture( name="maskTexture1", uv=uv0 * 1)
+mask2 = texture( name="maskTexture2", uv=uv0 * 1)
+mask3 = texture( name="maskTexture3", uv=uv0 * 1)
+diffuseLerp1 = lerp (layer1, layer2, smoothstep (0.0005, 0.25, mask1))
+diffuseLerp2 = lerp (diffuseLerp1, layer3, smoothstep (0.0125, 0.0005, mask1))
+diffuseLerp3 = lerp (diffuseLerp2, layer4, smoothstep (0.0005, 0.5, mask2))
+diffuseLerp4 = lerp (layer5, diffuseLerp3, smoothstep (0.5, 0.05, mask3))
+diffuse = diffuseLerp4
+ambient = diffuse
