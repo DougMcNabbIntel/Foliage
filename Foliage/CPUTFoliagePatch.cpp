@@ -122,9 +122,9 @@ CPUTResult CPUTFoliagePatchDX11::LoadFoliagePatchParameters( const cString &name
         mpFilenameNormalList[ii] = billboardNormalTextureName;
 
         mpFilenameProbabilityPtrList[ii] = &mpFilenameProbabilityList[ii];
-        pEntry = pBlock->GetValueByName(_L("billboardProbabilityTexture"));
-        cString billboardProbabilityTextureName = pEntry->IsValid() ? (pAssetLibrary->GetTextureDirectoryName() + pEntry->ValueAsString()) : undefined;
-        mpFilenameProbabilityList[ii] = billboardProbabilityTextureName;
+        pEntry = pBlock->GetValueByName(_L("probabilityTexture"));
+        cString probabilityTextureName = pEntry->IsValid() ? (pAssetLibrary->GetTextureDirectoryName() + pEntry->ValueAsString()) : undefined;
+        mpFilenameProbabilityList[ii] = probabilityTextureName;
 
         pEntry = pBlock->GetValueByName(_L("3DFarClipDistance"));
         mpFoliagePlantParameters[ii].m3DFarClipDistance = pEntry->IsValid() ? pEntry->ValueAsFloat() : 10.0f;
@@ -223,7 +223,7 @@ CPUTResult CPUTFoliagePatchDX11::LoadFoliagePatch( const cString &name, CPUTRend
         pAssetLibrary->AddTexture( textureArrayName, mpFoliageBillboardTextureArrayNormal );
     }
 
-    textureArrayName = _L("$FoliageBillboardProbability");
+    textureArrayName = _L("$FoliageProbability");
     mpFoliageBillboardTextureArrayProbability = CPUTTexture::CreateTextureArrayFromFilenameList( params, textureArrayName, mpFilenameProbabilityPtrList, false ); // Note: Disabled sRGB for normal map
     if( mpFoliageBillboardTextureArrayProbability )
     {

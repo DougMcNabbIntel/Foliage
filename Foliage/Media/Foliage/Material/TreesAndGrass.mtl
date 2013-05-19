@@ -2,7 +2,7 @@
 BillboardTexture        = $FoliageBillboardColor
 NormalTexture           = $FoliageBillboardNormal
 NormalTextureSrgb       = false
-ProbabilityTexture      = $FoliageBillboardProbability
+ProbabilityTexture      = $FoliageProbability
 ProbabilityTextureSrgb  = false
 BillboardBuffer         = @VertexBuffer
 TerrainLightMap         = $TerrainLightMap
